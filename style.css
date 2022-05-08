@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: url("images/ball bg.jpg");
+}
+
+.rule{
+    color: white;
+    font-size: 2rem;
+}
+
+.counter {
+    color: white;
+    font-size: 4rem;
+}
+
+.player{
+    background-color: rgb(225, 240, 86);
+}
+
+.player1{
+    background-color: rgb(15, 210, 64);
+}
+
+
+
+.choose button{
+    background-color: #19d1d1;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    width: 4rem;
+    font-weight: bold;
+}
+
+.choose button:hover{
+    background-color: #107d7d;
+}
+
+.turn{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color:black;
+    border-bottom: 3px solid black;
+}
+
+.turn1{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color:black;
+}
+
+.reload button{
+   border: none;
+   color: rgb(30, 231, 30);
+   font-weight: bold;
+   border-radius: 7px;
+   background-color: rgb(111, 110, 110);
+}
